@@ -63,7 +63,7 @@ class MainActivity : AppCompatActivity() {
 
         if (checkForVictory(CROSS))
         {
-            noughtsScore++
+            crossesScore++
             result("Crosses Win..!")
         }
 
